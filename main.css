@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300&display=swap');
+
+
+.title {
+  text-align: center;
+  color: white;
+  background-color: #414141;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+}
+
+
+.topnav {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #414141;
+  overflow: hidden;
+}
+
+.topnav a {
+  font-family: 'Bebas Neue', cursive;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+.blurb {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  background-color:#414141;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+}
+
+.home-image {
+
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.blurb-title {
+  color:white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family:'Bebas Neue', cursive;
+}
+.row{
+  display:flex;
+}
+
+.column {
+  flex: 33%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
